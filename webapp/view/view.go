@@ -1,6 +1,6 @@
 package view
 
-import "github.com/acidlemon/rocket"
+import "github.com/mix3/rocket"
 
 type Render struct {
 	*rocket.View

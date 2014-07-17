@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<title>{{.APP_NAME}}</title>
+	</head>
+	<body>
+		<h1>{{.APP_NAME}}</h1>
+		<p>
+			アドレス登録<br />
+			{{.SIGNUP_ADDRESS}}<br />
+			<img src="https://chart.googleapis.com/chart?cht=qr&chs=157x157&chl={{.SIGNUP_ADDRESS}}" /><br />
+		</p>
+		<p>
+			リマインド登録<br />
+			{{.REGISTER_ADDRESS}}<br />
+			<img src="https://chart.googleapis.com/chart?cht=qr&chs=157x157&chl={{.REGISTER_ADDRESS}}" /><br />
+		</p>
+	</body>
+</html>
